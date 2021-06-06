@@ -2,7 +2,14 @@
 
 ## Installation
 
-We require the following packages (*module load* used on Kamiak, WSU's cluster).
+### Datasets
+
+Download data and convert to .tfrecord files for TensorFlow
+(*./generate_tfrecords.sh*)
+
+### Packages
+
+We require the following packages.
 Adjust for your computer setup.
 
     module load cuda/10.1.105 cudnn/7.6.4.38_cuda10.1 python3/3.7.4
